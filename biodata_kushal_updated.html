@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Biodata - Kushal R K</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .background {
+      background-image: url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: blur(12px) brightness(60%);
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: -1;
+    }
+
+    .content {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1, h2, h3 {
+      color: #1f2d4a;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px 30px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .quote {
+      font-style: italic;
+      color: #1f2d4a;
+      margin: 10px 0 30px;
+    }
+
+    img {
+      border-radius: 10px;
+      margin: 15px auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: block;
+    }
+
+    .cover-photo {
+      max-width: 100%;
+      max-height: 450px;
+    }
+
+    .gallery-photo {
+      max-width: 100%;
+      max-height: 300px;
+    }
+
+    .photo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    @media print {
+      body, html {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      .background {
+        position: fixed;
+        filter: blur(8px) brightness(65%);
+      }
+
+      .card {
+        box-shadow: none;
+      }
+
+      img {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="content">
+    <div class="center">
+      <h1>Biodata – Kushal R K</h1>
+      <h3>MBA | Business Operations | Groww</h3>
+      <p class="quote">“I believe in evolving every day, with purpose, passion, and peace.”</p>
+      <img src="IMG-20231218-WA0015.jpg" alt="Cover Photo" class="cover-photo">
+    </div>
+
+    <div class="card">
+      <h2>Personal Details</h2>
+      <p>
+        <strong>Name:</strong> Kushal R K<br>
+        <strong>Date of Birth:</strong> 15 Dec 1997<br>
+        <strong>Time of Birth:</strong> 10:15 PM<br>
+        <strong>Place of Birth:</strong> Bangalore<br>
+        <strong>Nakshatram:</strong> Aaridhra<br>
+        <strong>Gotram:</strong> Vennakula<br>
+        <strong>Rasi:</strong> Mithuna Rasi<br>
+        <strong>Height:</strong> 5′10″
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Education</h2>
+      <p><strong>MBA:</strong> Finance & Analytics (Graduated 2021)</p>
+    </div>
+
+    <div class="card">
+      <h2>Work</h2>
+      <p>
+        <strong>Current Role:</strong> Business Operations Associate<br>
+        <strong>Company:</strong> Groww, Bangalore
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Family Details</h2>
+      <p>
+        <strong>Father:</strong> Krishna R S<br>
+        <strong>Mother:</strong> Kalpana Krishna<br>
+        <strong>Younger Brother:</strong> Harshith R K
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Photos</h2>
+      <div class="photo-gallery">
+        <img src="IMG-20231218-WA0017.jpg" alt="Adiyogi" class="gallery-photo">
+        <img src="IMG-20250408-WA0021.jpg" alt="Taj Mahal" class="gallery-photo">
+        <img src="IMG-20250408-WA0026.jpg" alt="Casual" class="gallery-photo">
+        <img src="IMG-20250408-WA0030.jpg" alt="Family" class="gallery-photo">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
